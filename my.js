@@ -16,7 +16,7 @@ function addGS() {
             'Content-Type': 'application/json'
         },
         redirect: 'follow',
-        body: JSON.stringify({"first": "Dzaky", "last": "Farhan", "phone": "101012992"})
+        body: JSON.stringify({first: "Dzaky", phone: "101012992", last: "Farhan"})
     });
 }
 
