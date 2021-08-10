@@ -1,12 +1,12 @@
 
 function testGS() {
-    const url = "https://script.google.com/macros/s/AKfycbw6jLsPSw9Jzupr3CqQU6I6bKshYDGW-BFQQ6YOfornZO_B-_K4kswY_EqAczS099n-/exec";
+    const url = "https://script.google.com/macros/s/AKfycbyyeB0ExG9w1EUkqHMo5rtwRaGTo3lSMYGV6C3-xommKngyioKaNa0Q5A0CmPtcmADG/exec";
 
     fetch(url).then(d => d.json()).then(d => {document.getElementById("app").textContent = d[0].status});
 }
 
 function addGS() {
-    const url = "https://script.google.com/macros/s/AKfycbw6jLsPSw9Jzupr3CqQU6I6bKshYDGW-BFQQ6YOfornZO_B-_K4kswY_EqAczS099n-/exec";
+    const url = "https://script.google.com/macros/s/AKfycbyyeB0ExG9w1EUkqHMo5rtwRaGTo3lSMYGV6C3-xommKngyioKaNa0Q5A0CmPtcmADG/exec";
 
     fetch(url, {
         method: 'POST',
